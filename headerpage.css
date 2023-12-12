@@ -1,0 +1,318 @@
+
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.main {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+ 
+}
+.nav ul li {
+display: flex;
+list-style: none;
+
+margin: 10px;
+
+
+}
+.nava  ul{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}
+li {
+    margin: 10px;
+}
+
+
+.nav h3 {
+    margin: 12px;
+}
+/* .main2{
+background-color: rgb(34, 34, 88);
+height: 540px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.work {
+    padding-left: 91px;
+    color: wh;
+}
+
+
+.image img{
+
+    height: 200px;
+    width: 200px;
+} */
+
+
+/* .header h5{
+    font-size: 40px;
+}
+.header .card-text {
+
+}
+.header .card{
+    background-color: rgb(34, 34, 88);
+    height: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.btn1{
+    border-radius: 5px;
+    border: none;
+    background-color: yellowgreen;
+    color: black;
+} */
+
+.call{
+
+height: 500px;
+width: 100%;
+background-color: rgb(64 62 101);
+color: white;
+
+
+}
+
+.contant p{
+font-size: 40px;
+}
+
+
+.contant h2 {
+    font-size: 25px;
+}
+.btn1{
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: rgb(242 217 87);
+    height: 30px;
+    width: 100px;
+}
+.centerheading h4 {
+    padding-left: 500px;
+    margin-top: 74px;
+    padding-top: 35px;
+}
+.callit h3 {
+    padding-left: 500px;
+    margin-top: 74px;
+    margin-bottom: 80px;
+}
+.callit{
+    background-color: rgb(215 232 242);
+    height: 702px;
+}
+h3 {
+    padding-top: 35px;
+}
+.box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+
+}
+ .box img {
+    height: 97px;
+    width: 99px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box .Founder{
+    
+    color: red;
+    margin-left: 113px;
+}
+.box h4{
+    font-size: 20px;
+    margin-left: 72px;
+
+}
+
+
+.blog h3 {
+    padding-left: 500px;
+    margin-top: 74px;
+    margin-bottom: 80px;
+}
+.card a{
+    color: black;
+}
+
+ .allpost h3 {
+    padding-left: 500px;
+    margin-top: 74px;
+    margin-bottom: 80px;
+   
+} 
+
+
+.yap h3 {
+    background-color: hsl(52.8deg 100% 90.2%);
+    height: 115px;
+    width: 255px;
+    padding: 27px;
+    align-items: center;
+}
+/* .steps{
+    background-color: rgb(243 235 222);
+}
+.steps.callsteps{
+    background-color: hsl(52.8deg 100% 90.2%);
+}  */
+
+.three{
+    background-color: hsl(156.81deg 88.84% 45.69%);
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.three .col-lg-10 {
+    height: 120px;
+    margin-top: 13px;
+    
+        margin-left: 336px;
+  
+}
+.header1 {
+    background-color: hsl(37.14deg 46.67% 91.18%);
+    position: relative;
+}
+.header1 .row .col-lg-4.col-md-3.col-sm-6 {
+    margin-top: 70px;
+    margin-left: 101px;
+}
+
+.postion {
+    background-color: white;
+    height: 279px;
+    width: 518px;
+    position: absolute;
+    left: 50px;
+    top: 2970px;
+    text-align: center;
+}
+
+.postion h2 {
+    margin-top: 46px;
+}
+
+ .postion .lettalk {
+    border: none;
+    border-radius: 5px;
+    height: 33px;
+    width: 135px;
+    color: white;
+    background-color: #0ddc8c;
+}
+.lets{
+    margin: 20px;
+}
+
+.self{
+    background-color: hsl(249.66deg 100% 17.06%);
+    height: 610px;
+width: 100%;
+
+}
+
+.self img {
+    margin-top: 219px;
+}
+.self .col-lg-8.col-md-6.col-sm-6.pt-5 {
+    margin-top: 173px;
+    color: white;
+}
+.self img {
+    height: 208px;
+    width: 278px;
+}
+/* .holp.col-lg-3.col-md-3.col-sm-6.pt-5 img{
+    margin-bottom: -43px;
+    margin-top: -111px;
+} */
+.holp   img {
+    margin-top: -11px;
+    background-color: white;
+    height: 86px;
+    width: 175px;
+}
+.holp{
+    background-color: black;
+}
+.holp .centerheading h4 {
+    color: white;
+}
+.holp h3 {
+    color: white;
+}
+
+.coures{
+    margin-top: 270px;
+    background-color: hsl(324deg 32.79% 23.92%);
+    height: 541px;
+}
+
+.coures h3 {
+    color: white;
+}
+.coures.card-body p {
+    /* background-color: #61304d; */
+    color: white;
+}
+.upgrate h3 {
+    font-size: 12px;
+}
+.rose{
+    height: 500px;
+width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.339),rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.213)), url("https://c4.wallpaperflare.com/wallpaper/559/412/3/3-light-pink-roses-wallpaper-preview.jpg");
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+
+object-fit: cover;
+}
+.rose h4 {
+    margin-left: 514px;
+       padding: 42px;
+}
+.rose h3{
+        margin-left: 514px; 
+}
+.rose p{
+    margin-left: 514px; 
+  
+}
+.rose .sign {
+    margin-left: 514px;
+    border: none;
+    height: 40px;
+    width: 302px;
+    border-radius: 5px;
+}
+
+
