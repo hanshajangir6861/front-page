@@ -35,6 +35,7 @@ li {
 
 .nav h3 {
     margin: 12px;
+    padding-top: 1px;
 }
 /* .main2{
 background-color: rgb(34, 34, 88);
@@ -91,7 +92,9 @@ color: white;
 
 
 }
-
+.code {
+    margin-left: 175px;
+}
 .contant p{
 font-size: 40px;
 }
@@ -257,6 +260,7 @@ width: 100%;
     background-color: white;
     height: 86px;
     width: 175px;
+    margin-left: -53px;
 }
 .holp{
     background-color: black;
@@ -268,6 +272,9 @@ width: 100%;
     color: white;
 }
 
+.upgrate {
+    background-color: #efe7db;
+}
 .coures{
     margin-top: 270px;
     background-color: hsl(324deg 32.79% 23.92%);
@@ -299,13 +306,17 @@ object-fit: cover;
 .rose h4 {
     margin-left: 514px;
        padding: 42px;
+       color: white;
+
 }
 .rose h3{
         margin-left: 514px; 
+        color: white;
+
 }
-.rose p{
-    margin-left: 514px; 
-  
+.rose p {
+    margin-left: 339px;
+    color: white;
 }
 .rose .sign {
     margin-left: 514px;
@@ -315,4 +326,11 @@ object-fit: cover;
     border-radius: 5px;
 }
 
-
+@media screen and (min-width:320px) and (max-witdh:570px){
+    
+    .centerheading h4 {
+        /* padding-left: 500px; */
+        margin-top: 74px;
+        padding-top: 35px;
+    }
+}
